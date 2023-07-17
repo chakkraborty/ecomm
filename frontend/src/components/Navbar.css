@@ -1,0 +1,53 @@
+.navbarDiv {
+  background-color: #111111;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.navbarSearchField {
+  width: 400px;
+  height: 26px;
+  border: none;
+  outline: none;
+  padding: 2.1px;
+  padding-left: 8px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+.navbarSearchIconBg {
+  background-color: #ff9900;
+
+  color: white;
+  height: 30px;
+  width: 30px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+.navbarSearchDiv {
+  display: flex;
+}
+
+.navbarLogo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbarLogoTitle {
+  color: rgb(237, 231, 231);
+  font-family: sans-serif;
+  font-weight: 550;
+  padding-left: 10px;
+  padding-top: 3px;
+}
+.navbarLogoIcon {
+  color: #ff9900;
+}
+.navbarRightSection {
+  display: flex;
+}

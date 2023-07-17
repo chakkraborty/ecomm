@@ -1,0 +1,153 @@
+.checkOutPageWrapper {
+  width: 80%;
+  margin: auto;
+  display: flex;
+}
+.checkOutPageLeftSection {
+  width: 70%;
+  /* background-color: grey; */
+}
+.checkOutPageRightSection {
+  width: 25%;
+  /* background-color: grey; */
+}
+.checkOutPageLeftSectionTitle {
+  color: rgba(141, 66, 0, 0.906);
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 700;
+  margin-top: 20px;
+}
+.checkOutPageAddressBox {
+  width: 90%;
+
+  border: 1.5px solid rgb(216, 211, 211);
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.checkOutPageAddressBoxTitle {
+  padding: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-weight: 600;
+  font-size: 18px;
+  font-family: sans-serif;
+  border-bottom: 1.5px solid rgb(216, 211, 211);
+}
+.checkOutPageAddressBoxAddAddressSection {
+  width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.checkOutPageAddressBoxAddAddressSectionIcon {
+  font-size: 30px;
+  font-weight: 900;
+  color: grey;
+}
+.checkOutPageAddressBoxAddAddressSectionText {
+  margin-left: 5px;
+  font-size: 15px;
+  font-family: 600;
+  font-family: sans-serif;
+  color: #248f98;
+}
+.checkOutPageAddressBoxAddAddressSectionText:hover {
+  color: brown;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.checkOutPageRightSectionItemsBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 5px;
+  font-family: sans-serif;
+}
+
+.checkOutPageRightSectionButton {
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  border-bottom: 1.5px solid rgb(216, 211, 211);
+  padding: 8px;
+}
+
+.checkOutPageRightSection {
+  border-radius: 5px;
+  border: 1.5px solid rgb(216, 211, 211);
+  padding: 10px;
+  margin-top: 20px;
+  height: 160px;
+}
+.checkOutPageRightSectionItemsBoxLine {
+  border-bottom: 1.5px solid rgb(216, 211, 211);
+  padding-bottom: 10px;
+}
+.checkOutPageRightSectionItemsBoxTotal {
+  font-weight: 700;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: sans-serif;
+  color: brown;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.checkOutPageAddressDataWrapper {
+  display: flex;
+  margin-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.checkoutPageAddressDataRadio {
+  margin-right: 10px;
+}
+.checkoutPageAddressDataRightSection {
+  font-family: sans-serif;
+  font-size: 14px;
+  width: 100%;
+  padding: 10px;
+}
+.checkoutPageAddressDataRightSectionFullName {
+  margin-bottom: 5px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* .checkoutPageAddressDataRightSection {
+  background-color: rgb(255, 223, 148);
+  border: 1px solid rgb(170, 77, 0);
+
+  border-radius: 5px;
+} */
+
+.paymentWrapper {
+  margin: 10px;
+  height: 60px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.checkOutPagePlaceOrderButton {
+  font-size: 14.5px;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+  background-color: rgb(255, 199, 56);
+  width: 100px;
+  display: flex;
+  padding: 10px;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+.checkOutPagePlaceOrderButton:hover {
+  background-color: rgb(163, 108, 8);
+  cursor: pointer;
+}

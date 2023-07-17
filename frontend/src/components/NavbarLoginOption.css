@@ -1,0 +1,10 @@
+.navbarLoginOptionDiv {
+  color: white;
+  font-family: sans-serif;
+  border: 1px solid white;
+  padding: 8px;
+}
+.navbarLoginOptionDiv:hover {
+  cursor: pointer;
+  background-color: rgb(59, 59, 59);
+}
